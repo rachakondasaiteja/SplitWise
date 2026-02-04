@@ -19,7 +19,7 @@ public class CommandExecutor {
         commands.remove(command);
     }
 
-    public void execute(String input){
+    public   void execute(String input){
         for(Command command: commands){
             if(command.matches(input)){
                 command.execute(input);
