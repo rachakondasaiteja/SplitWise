@@ -5,7 +5,7 @@ import services.UserService;
 
 import java.util.List;
 
-public class UserController {
+public   class UserController {
 
     private UserService userService;
 
