@@ -13,7 +13,7 @@ public class SettleUpUser implements Command{
     @Override
     public void execute(String input) {
         // u1 settleUp g1
-        String[] s =  input.split(" ");
+        String[] s = input.split(" ");
         userController.settleUser(s[0], s[2]);
     }
 
