@@ -13,7 +13,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    public List<Transaction> settleUser(String userName, String groupName){
+    public  List<Transaction> settleUser(String userName, String groupName){
         return userService.settleUser(userName, groupName);
     }
 }
