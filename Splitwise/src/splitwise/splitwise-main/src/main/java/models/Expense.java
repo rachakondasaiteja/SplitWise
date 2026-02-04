@@ -2,7 +2,7 @@ package models;
 
 public class Expense {
 
-    private String description;
+    private   String description;
     private int amount; // total amount of the expense
     private ExpenseType expenseType;
 
