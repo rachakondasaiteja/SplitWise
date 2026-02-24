@@ -16,6 +16,6 @@ public class ExpenseRepository {
     }
 
     public ExpenseRepository() {
-        expenseList = new ArrayList<>();
+         expenseList = new ArrayList<>();
     }
 }
