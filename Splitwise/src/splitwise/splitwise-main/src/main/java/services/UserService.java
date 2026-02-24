@@ -27,7 +27,7 @@ public class UserService {
 
         Map<String, Integer> extraAmountMap = new HashMap<>();
 
-        List<Expense> expenses = groupRepository.findExpensesByGroup(groupName);
+        List<Expense> expenses =  groupRepository.findExpensesByGroup(groupName);
 
         for(Expense expense: expenses){
 
