@@ -9,7 +9,7 @@ public class CommandExecutor {
         commands.add(settleUpUser);
     }
 
-    private List<Command> commands = new ArrayList<>();
+    private List<Command> commands =  new ArrayList<>();
 
     public void addCommand(Command command){
         commands.add(command);
